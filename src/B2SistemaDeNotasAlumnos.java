@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-public class Pruebas {
+public class B2SistemaDeNotasAlumnos {
     public static void main(String[] args) {
-
         double[] claseMatematicas, claseHistoria, claseLenguaje;
         double sumNotasMatematicas = 0, sumNotasHistoria = 0, sumNotasLenguaje = 0;
         claseMatematicas = new double[7];
@@ -44,8 +43,5 @@ public class Pruebas {
         int id = s.nextInt();
         double promedioAlumno = (claseHistoria[id] + claseLenguaje[id] + claseMatematicas[id])/3;
         System.out.println("Promedio alumno Nro " + id + " : " + promedioAlumno);
-
-
-
     }
 }

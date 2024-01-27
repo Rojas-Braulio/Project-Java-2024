@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BOrdenarArregloForma {
+public class B1OrdenarArregloForma {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         //Creamos arreglo
